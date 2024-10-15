@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Дедюхін Дмитро, Lab4, ІК-23">
+    <meta name="description" content="Лабораторна 4">
+    <title>Дедюхін Д.Є., Група ІК-23</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h2 id="name">Дедюхін Дмитро Євгенович</h2>
+
+    <p>Дата народження: 3 березня 2005 року</p>
+    <p>Місце народження: Київ, Україна</p>
+
+    <p>Освіта: Закінчив школу №173, зараз навчаюсь в КПІ ім. Сікорського</p>
+
+    <h3>Мої хобі:</h3>
+    <ul>
+        <li>Читання книг</li>
+        <li>Спорт зал</li>
+        <li>Програмування</li>
+    </ul>
+
+    <h3>Мої улюблені фільми:</h3>
+    <ol>
+        <li>Guy Ritchie's The Covenant, 2023</li>
+        <li>Shutter Island, 2009</li>
+        <li>The Truman Show, 1998</li>
+    </ol>
+
+    <h3>Улюблене місто:</h3>
+    <p id="favorite-city">Моє улюблене місто - Львів. Це чарівне місто з багатою історією та неповторною архітектурою. 
+        Вузькі вулички, величні собори та затишні кав'ярні роблять його незабутнім місцем для відвідування.</p>
+
+    <p>Більше про місто можна дізнатися <a href="https://lviv.travel/">тут</a>.</p>
+
+    <!-- Кнопки для маніпуляцій із зображенням -->
+    <div>
+        <button onclick="removeImage()">Видалити зображення</button>
+        <button onclick="increaseImage()">Збільшити зображення</button>
+        <button onclick="decreaseImage()">Зменшити зображення</button>
+        <button onclick="addImage()">Додати зображення</button>
+    </div>
+    
+    <img src="images/Lviv-market-square.jpg" alt="Фото Львова" id="city-image" width="500" height="350">
+    
+    <script src="./script.js"></script>
+</body>
+
+</html>
